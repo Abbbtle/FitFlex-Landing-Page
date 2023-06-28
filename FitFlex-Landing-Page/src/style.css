@@ -183,7 +183,7 @@ body {
 .fancy {
     background-color: transparent;
     border: 2px solid #000;
-    border-radius: 0;
+    border-radius: 5px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -317,7 +317,7 @@ body {
 }
 
 .navbar-links li, a:hover {
-    color: #ffdb3b;
+    color: goldenrod;
     transition: 0.3s ease-in-out;
 }
 
@@ -328,3 +328,199 @@ body {
 }
 
 /*========== Main Section CSS ==========*/
+
+h1 {
+  font-size: 90px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 70px;
+  color: #ffdb3b;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*========== Main 1 CSS ==========*/
+
+.main-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.m1-side-1 {
+  background-color: #fff;
+  width: 45vw;
+  height: auto;
+  border-radius: 20px;
+  padding: 25px 50px 25px 50px;
+}
+
+.m1-cta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m1-side-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(/FitFlex-Landing-Page/assets/beautiful-fitness-woman-sportswear-doing-exercise-legs-press-machine-gym.jpg);
+  object-fit: contain;
+  background-size: cover;
+  width: 35vw;
+  border-radius: 20px;
+  padding: 15px 50px 15px 50px;
+}
+
+/*========== Main 2 CSS ==========*/
+
+.main-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m2-side-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  border-radius: 20px;
+  padding: 15px 50px 15px 50px;
+  margin-left: 20px;
+  background-color: goldenrod;
+}
+
+#m2-img {
+  position: relative;
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+#m2-img:hover {
+  transform: scale(0.97);
+  transition: 0.2s ease-in-out;
+}
+
+.m2-side-1b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.b-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.b-info p {
+  text-transform: capitalize;
+}
+
+.b-info-a {
+  display: flex;
+  align-items: center;
+}
+
+.b-info-a1 {
+  text-align: right;
+}
+
+.b-info-a2 {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.b-title h3 {
+  color: #000;
+}
+
+.m2-side-2 {
+  display: flex;
+}
+
+.m2-side-2-bg {
+  width: 42vw;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 20px;
+  background: url(/FitFlex-Landing-Page/assets/preparing-best-young-african-american-bodybuilder-training-grey-background-muscular-single-male-model-sportwear-with-ball-concept-sport-bodybuilding-healthy-lifestyle.jpg);
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+
+.m2-side-2-bg h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  color: goldenrod;
+}
+/*========== Footer CSS ==========*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-vr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  width: 90%;
+  padding: 20px 40px 20px 40px;
+}
+
+.footer-info {
+  margin: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+.socials {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials-hr {
+  border-left: 2px solid #fff;
+  height: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.socials-icons {
+  margin-right: 20px;
+  color: #05a6c2;
+  font-size: 20px;
+}
