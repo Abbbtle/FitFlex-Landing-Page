@@ -251,7 +251,7 @@ p {
 
 .m1-side-1 {
   background-color: #fff;
-  width: 46vw;
+  width: 45vw;
   height: auto;
   border-radius: 20px;
   padding: 25px 50px 25px 50px;
@@ -260,6 +260,10 @@ p {
 .m1-cta {
   display: flex;
   justify-content: space-between;
+}
+
+.m1-cta-info {
+  text-align: right;
 }
 
 .m1-side-2 {
@@ -271,7 +275,7 @@ p {
   object-fit: contain;
   background-size: cover;
   background-position: center;
-  width: 36vw;
+  width: 35vw;
   border-radius: 20px;
   padding: 15px 50px 15px 50px;
 }
@@ -296,7 +300,7 @@ p {
 .m2-side-1 {
   display: flex;
   justify-content: space-between;
-  width: 46vw;
+  width: 45vw;
   border-radius: 20px;
   padding: 15px 50px 15px 50px;
   margin-left: 20px;
@@ -349,6 +353,7 @@ p {
 
 .b-title h3 {
   color: #000;
+  text-align: right;
 }
 
 .m2-side-2 {
@@ -356,7 +361,7 @@ p {
 }
 
 .m2-side-2-bg {
-  width: 43vw;
+  width: 42vw;
   height: auto;
   border-radius: 20px;
   margin-right: 20px;
